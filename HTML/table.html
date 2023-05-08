@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        td:hover{
+            background-color: aqua;
+            color: blue;
+            transition-duration: 0.75s;
+            border-color: chartreuse;
+            
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <table border="2px" cellspacing="0" cellpadding="5px">
+            <tr>
+                <td>r1c1</td>
+                <td colspan="2" align="center">r1c2</td>
+                
+                <td>r1c4</td>
+            </tr>
+            <tr>
+                <td>r2c1</td>
+                <td rowspan="2" >r2c2</td>
+                <td>r2c3</td>
+                <td>r2c4</td>
+            </tr>
+            <tr>
+                <td>r3c1</td>
+                
+                <td>r3c3</td>
+                <td>r3c4</td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">r4c1</td>
+                
+                <td>r4c4</td>
+            </tr>
+        </table>
+    </div><br><br>
+    <div>
+        <table width="100%" border="2" cellspacing="0" cellpadding="4">
+            <thead style="background-color: aqua; color: royalblue;">
+                <th width="10%">sr no</th>
+                <th>Name</th>
+                <th>Branch</th>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>1.</td>
+                    <td>abc</td>
+                    <td>Mechanical</td>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>abc</td>
+                    <td>Mechanical</td>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>abc</td>
+                    <td>Mechanical</td>
+                </tr>
+            </tbody>
+            <tfoot align="center">
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td>5</td>
+                </tr>
+            </tfoot>
+        </table>
+        
+    </div>
+</body>
+</html>
