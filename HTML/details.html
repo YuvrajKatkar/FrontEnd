@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        dd{
+            text-align: left;
+        }
+        summary{
+            list-style-type: none;
+        }
+        span{
+            font-weight: bold;
+            color: blue;
+        }
+        p{
+            text-align: justify;
+            text-indent: 7%;
+        }
+        .hrt{
+            color: red;
+            font-size: 100px;
+            text-align: center;
+            animation-name: hrbt;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes hrbt{
+            50%{opacity:0}
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 align="center">Defination and details</h1>
+        <dl>
+            <dt>ABC</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui totam magnam nemo officia ipsam. Facere, non excepturi neque optio ipsa officia soluta? Velit distinctio ex delectus unde fugit natus illum!</dd>
+            <dt>oiewrt</dt>
+            <dt>fjhg</dt>
+        </dl>
+    </div>
+    <div>
+        <details>
+            <summary>&#128053;<span> Heading of details</span> </summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestiae doloremque explicabo sed eum nihil impedit quo vero repellendus nostrum pariatur, esse, voluptatum deserunt perspiciatis, dolorem optio asperiores possimus ab!</p>
+        </details>
+    </div>
+    <div>
+        <p class="hrt">&#x2764;</p>
+    </div>
+</body>
+</html>
