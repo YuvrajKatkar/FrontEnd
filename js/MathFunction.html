@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Math Function</h1>
+    <script>
+        document.write("square root of 81: "+Math.sqrt(81)+"<br>");
+        document.write("round value of 10.6: "+Math.round(10.6)+"<br>");
+        document.write("round value of 10.3: "+Math.round(10.3)+"<br>");
+        document.write("Floor value of 10.3: "+Math.floor(10.3)+"<br>");
+        document.write("Floor value of 10.6: "+Math.floor(10.6)+"<br>");
+        document.write("Ceiling value of 10.3: "+Math.ceil(10.3)+"<br>");
+        document.write("Ceiling value of 10.6:"+Math.ceil(10.6)+"<br>");
+        document.write("max value of 10 and 6  is: "+Math.max(10,6)+"<br>");
+        document.write("max value of 10 and 6  is: "+Math.min(10,6)+"<br>");
+        document.write("Random generated value is "+Math.random()+"<br>");
+
+        let a= [3,4,6,1,2,7,9,8];
+        document.write("Array : "+a+"<br>");
+        a.sort()
+        document.write("Sort : "+a+"<br>");
+        a.reverse()
+        document.write("Reverse : "+a+"<br>");
+        a.pop()
+        document.write("Pop : "+a+"<br>");
+        a.shift()
+        document.write("shift : "+a+"<br>");
+        a.push("last")
+        document.write("Push : "+a+"<br>");
+        a.unshift("first");
+        document.write("Unshift : "+a+"<br>")
+        
+        let b = ["hi"," how "];
+        document.write(b + "<br>");
+        let  c = ["are "," you "];
+        document.write(c + "<br>");
+        let d = b.concat(c);
+        document.write(d + "<br>");
+        document.write("How: "+d.includes(" how ")+"<br>");
+        document.write("index of how : "+ d.indexOf(" how ")+"<br>");
+        document.write(d.slice(1,2)+"<br>");
+        document.write(d+"<br>")
+
+     
+    </script>
+</body>
+</html>
