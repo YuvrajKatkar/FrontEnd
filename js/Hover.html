@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #d1{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+        }
+        #sm{
+           color: red;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="d1" onmouseover="over()" onmouseout="out()"></div><br><br>
+    <div id="sm" ondblclick="demo()">SOMETHING</div>
+    <form action="">
+        <input type="text" id="un" onkeyup="toUpper()">
+        <input type="submit">
+    </form>
+    <script>
+        function over(){
+            document.getElementById("d1").style.backgroundColor="cyan";
+        }
+        function out(){
+            document.getElementById("d1").style.backgroundColor="blue";
+        }
+        function demo(){
+            document.getElementById("sm").style.color="green";
+        }
+        function toUpper(){
+            let a= document.getElementById("un");
+            a.value= a.value.toUpperCase();
+        }
+    </script>
+</body>
+</html>
