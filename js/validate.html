@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Validation </h1>
+    <form action="" onsubmit="val()">
+        <input type="text" name="name" id="pass">
+        <input type="submit" name="clk" >
+    </form>
+    <script>
+        function val(){
+            let pass=123;
+            let upass=document.getElementById("pass").value;
+            if(pass==upass){
+                window.open("www.google.com");
+            }
+            else{
+                alert("Wrong password!")
+            }
+        }
+    </script>
+</body>
+</html>
